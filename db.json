@@ -1,0 +1,98 @@
+{
+  "students": [
+    {
+      "username": "student",
+      "email": "student@student.com",
+      "password": "12345",
+      "subjects": [
+        {
+          "name": "رياضيات",
+          "id": "1",
+          "degree": 1,
+          "finalDegree": 2
+        },
+        {
+          "name": "لغة انجليزية",
+          "id": "2",
+          "degree": 1,
+          "finalDegree": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "username": "eslam",
+      "email": "eslam@eslam.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "hassan",
+      "email": "hassan@hassan.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "doctor": [
+    {
+      "username": "doctor",
+      "email": "doctor@doctor.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "رياضيات",
+      "questions": [
+        {
+          "question": "2*5",
+          "answer1": "10",
+          "answer2": "40",
+          "answer3": "20",
+          "answer4": "30",
+          "correctAnswer": "10"
+        },
+        {
+          "question": "1*2",
+          "answer1": "8",
+          "answer2": "45",
+          "answer3": "16",
+          "answer4": "2",
+          "correctAnswer": "2"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "لغة انجليزية",
+      "questions": [
+        {
+          "question": "what about the first oscar for you?",
+          "answer1": "fuck you",
+          "answer2": "aa",
+          "answer3": "bb",
+          "answer4": "cc",
+          "correctAnswer": "fuck you"
+        },
+        {
+          "question": "edhdhf",
+          "answer1": "dhfhdhf",
+          "answer2": "hdhfhd",
+          "answer3": "fhdhdfdh",
+          "answer4": "hfhd",
+          "correctAnswer": "fhdhdfdh"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "username": "student",
+      "type": "students",
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}
